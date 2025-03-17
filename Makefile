@@ -137,7 +137,7 @@ emcc:
 
 # 󰊠 Run Native Executable
 run: native
-	@echo "Running Space Wars..."
+	@echo "Running $(PROJECT_NAME)..."
 	@$(NATIVE_OUTPUT) || { echo "Error: Failed to run executable."; exit 1; }
 
 # 󰂖 Serve WebAssembly in Browser (Requires emrun)
